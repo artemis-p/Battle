@@ -7,7 +7,7 @@ feature 'Battle' do
   end
 end
 
-feature 'Entering names' do
+feature 'Enter names' do
   scenario 'Players entering and submitting their names in a form' do
     visit ('/')  
     fill_in :p1_name, with: 'Duffy duck'
